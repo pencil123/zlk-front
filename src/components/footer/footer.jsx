@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export class Home extends Component {
+export class Footer extends Component {
     render() {
         return (
             <div>
-                Home
+                
             </div>
         )
     }
 }
 
-export default Home
+export default Footer

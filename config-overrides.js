@@ -27,6 +27,4 @@ module.exports = override(
       localIdentName: "[path][name]__[local]--[hash:base64:5]", // if you use CSS Modules, and custom `localIdentName`, default is '[local]--[hash:base64:5]'.
     },
   }),
-  
-
 )

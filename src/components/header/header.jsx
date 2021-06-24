@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Layout, Row, Col } from "antd";
+import MyNav from "../nav/nav";
 
 import "./header.less";
 const { Header } = Layout;
 export class MyHeader extends Component {
   render() {
     return (
+        <>
       <Header>
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col className="header">
@@ -14,6 +16,8 @@ export class MyHeader extends Component {
           </Col>
         </Row>
       </Header>
+      <MyNav />
+      </>
     );
   }
 }

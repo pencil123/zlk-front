@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
+import { Layout } from 'antd'
 
-export class Header extends Component {
+const { Header } = Layout;
+export class MyHeader extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+          <Header>
+              header
+          </Header>
         )
     }
 }
 
-export default Header
+export default MyHeader

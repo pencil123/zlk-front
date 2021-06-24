@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
+import { Layout } from 'antd'
+const { Footer } = Layout;
 
-export class Footer extends Component {
+export class MyFooter extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+          <Footer>
+              Footer
+          </Footer>
         )
     }
 }
 
-export default Footer
+export default MyFooter

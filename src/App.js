@@ -1,22 +1,20 @@
 import { Layout } from 'antd'
 
 import Home from "@/pages/home/home";
+import MyHeader from "@/components/header/header";
+import MyFooter from './components/footer/footer';
 import './App.css';
 
-const { Header, Footer, Content } = Layout;
+const { Content } = Layout;
 
 function App() {
   return (
       <Layout>
-          <Header>
-              header
-          </Header>
+          <MyHeader />
           <Content>
               <Home />
           </Content>
-          <Footer>
-              Footer
-          </Footer>
+          <MyFooter />
       </Layout>
   );
 }

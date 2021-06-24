@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
 import Book from "@/components/book/book";
+import MyPagination from "@/components/pagination/pagination";
 import "./home.less";
 
 export class Home extends Component {
@@ -105,7 +106,11 @@ export class Home extends Component {
               src="https://ziliaok.cn/uploads/jenkins2quanweizhinan/main.jpg"
               alt="123"
             />
-            
+          </Row>
+          <Row justify="center">
+            <Col className="mypagination">
+              <MyPagination />
+            </Col>
           </Row>
         </Col>
       </Row>

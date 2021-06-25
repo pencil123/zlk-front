@@ -30,14 +30,14 @@ export class Home extends Component {
                 <Book />
                 <Book />
               </Row>
+              <Row justify="center">
+                <Col className="mypagination">
+                  <MyPagination />
+                </Col>
+              </Row>
             </Col>
             <Col xl={6}>
-                <MySider />
-            </Col>
-          </Row>
-          <Row justify="center">
-            <Col className="mypagination">
-              <MyPagination />
+              <MySider />
             </Col>
           </Row>
         </Col>

@@ -1,14 +1,18 @@
 import React, { Component } from "react";
-import { Card, Input, Space } from "antd";
+import { Card, Input } from "antd";
 const { Search } = Input;
 const onSearch = (value) => console.log(value);
 export class Subscribe extends Component {
   render() {
     return (
-      <div style={{border:"1px solid red"}}>
-        <Card title="邮件订阅" bordered={false}>
+      <div>
+        <Card
+          title="邮件订阅"
+          bordered={false}
+          style={{ border: "1px solid red" }}
+        >
           <Search
-            placeholder="input search text"
+            placeholder="your@email.com"
             allowClear
             enterButton="Search"
             size="middle"

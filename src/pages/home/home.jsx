@@ -11,7 +11,7 @@ export class Home extends Component {
       <Row justify="center">
         <Col xxl={15} xl={19} className="contentContainer">
           <Row>
-            <Col xl={19}>
+            <Col xl={18}>
               <Row>
                 <Book />
                 <Book />
@@ -31,7 +31,7 @@ export class Home extends Component {
                 <Book />
               </Row>
             </Col>
-            <Col xl={5}>
+            <Col xl={6}>
                 <MySider />
             </Col>
           </Row>

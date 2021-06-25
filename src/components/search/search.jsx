@@ -2,19 +2,20 @@ import React, { Component } from "react";
 import { Card, Input } from "antd";
 const { Search } = Input;
 const onSearch = (value) => console.log(value);
-export class Subscribe extends Component {
+
+export class MySearch extends Component {
   render() {
     return (
       <div>
         <Card
-          title="邮件订阅"
+          title="搜索"
           bordered={false}
           style={{ border: "1px solid red" }}
         >
           <Search
-            placeholder="your@email.com"
+            placeholder="资源名称"
             allowClear
-            enterButton="提交"
+            enterButton="Search"
             size="middle"
             onSearch={onSearch}
           />
@@ -24,4 +25,4 @@ export class Subscribe extends Component {
   }
 }
 
-export default Subscribe;
+export default MySearch;

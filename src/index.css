@@ -15,3 +15,7 @@ code {
 .ant-layout-header{
     height: auto !important;
 }
+
+.ant-card-head-title{
+    font-weight: bold;
+}

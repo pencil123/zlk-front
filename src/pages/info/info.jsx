@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col } from "antd";
 import MySider from "@/components/sider/sider";
+import InfoTab from "@/components/infoTab/infotab";
 
 export class Info extends Component {
     render() {
@@ -10,7 +11,7 @@ export class Info extends Component {
           <Row>
             <Col xl={18}>
               <Row>
-INFO_Content
+                  <InfoTab />
               </Row>
             </Col>
             <Col xl={6}>

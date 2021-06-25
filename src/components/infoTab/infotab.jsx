@@ -13,17 +13,11 @@ export class infotab extends Component {
           />
         </div>
         <div>
-          <Descriptions title="User Info" bordered>
-            <Descriptions.Item label="标题">
-              Docker 容器与容器云
-            </Descriptions.Item>
-            <Descriptions.Item label="作者">
-              浙江大学SEL实验室
-            </Descriptions.Item>
-            <Descriptions.Item label="出版社">人民邮电出版社</Descriptions.Item>
-            <Descriptions.Item label="关键词">
-              Docker,Docker容器,容器云,kubernetes,Docker 容器与容器云
-            </Descriptions.Item>
+          <Descriptions title="User Info" bordered column={1}>
+            <Descriptions.Item label="标题" >Docker 容器与容器云</Descriptions.Item>
+            <Descriptions.Item label="作者" >浙江大学SEL实验室</Descriptions.Item>
+            <Descriptions.Item label="出版社" >人民邮电出版社</Descriptions.Item>
+            <Descriptions.Item label="关键词" >Docker,Docker容器,容器云,kubernetes,Docker 容器与容器云</Descriptions.Item>
           </Descriptions>
         </div>
       </Col>

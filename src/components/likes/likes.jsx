@@ -8,7 +8,6 @@ export class Likes extends Component {
       <Card id="likes"
         title="猜你喜欢"
         bordered={false}
-        style={{ border: "1px solid red" }}
       >
         <Meta avatar={
               <Avatar src="https://ziliaok.cn/uploads/jenkins2quanweizhinan/main.jpg" />

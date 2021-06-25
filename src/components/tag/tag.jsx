@@ -8,7 +8,6 @@ export class Tag extends Component {
         id="tag"
         title="标签云"
         bordered={false}
-        style={{ border: "1px solid red" }}
       >
           <p><span>操作系统</span><i>9</i></p>
           <p><span>操作系统</span><i>9</i></p>

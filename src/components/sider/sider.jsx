@@ -8,7 +8,7 @@ import FirendLink from '../firendLink/firendLink';
 export class MySider extends Component {
     render() {
         return (
-            <div>
+            <div style={{padding:"5px 3px"}}>
                 <Subscribe />
                 <MySearch />
                 <Likes />

@@ -10,7 +10,7 @@ export class MySearch extends Component {
         <Card
           title="搜索"
           bordered={false}
-          style={{ border: "1px solid red" }}
+          style={{border: "1px solid wheat",marginBottom:8}}
         >
           <Search
             placeholder="资源名称"

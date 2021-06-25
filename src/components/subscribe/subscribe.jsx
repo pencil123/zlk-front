@@ -9,7 +9,7 @@ export class Subscribe extends Component {
         <Card
           title="邮件订阅"
           bordered={false}
-          style={{ border: "1px solid red" }}
+          style={{ border: "1px solid wheat",marginBottom:8}}
         >
           <Search
             placeholder="your@email.com"

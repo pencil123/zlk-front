@@ -9,7 +9,7 @@ export class FirendLink extends Component {
         id="firendLink"
         title="友情链接"
         bordered={false}
-        style={{ border: "1px solid red" }}
+        style={{ border: "1px solid wheat" }}
       >
         <Meta
           avatar={

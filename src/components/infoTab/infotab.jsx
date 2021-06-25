@@ -13,7 +13,7 @@ export class infotab extends Component {
           />
         </div>
         <div>
-          <Descriptions title="User Info">
+          <Descriptions title="User Info" bordered>
             <Descriptions.Item label="标题">
               Docker 容器与容器云
             </Descriptions.Item>

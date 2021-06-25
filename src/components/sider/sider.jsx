@@ -3,6 +3,7 @@ import Subscribe from '../subscribe/subscribe';
 import MySearch from '../search/search';
 import Likes from '../likes/likes';
 import Tag from '../tag/tag';
+import FirendLink from '../firendLink/firendLink';
 
 export class MySider extends Component {
     render() {
@@ -12,6 +13,7 @@ export class MySider extends Component {
                 <MySearch />
                 <Likes />
                 <Tag />
+                <FirendLink />
             </div>
         )
     }

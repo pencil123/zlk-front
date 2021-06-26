@@ -1,20 +1,31 @@
 .infotab{
     margin: 6px;
-    background: wheat;
     > div:first-child{
-        display: inline-block;
+        display: block;
         width: 40%;
         float: left;
+        background-color: wheat;
         img{
-            padding: 8px;
+            display: block;
+            width: 95%;
+            margin: 8px auto;
             border-radius: 5px;
-            width: 100%;
         }
     }
     > div:nth-child(2){
-        display: inline-block;
+        display: block;
         width: 58%;
         float: left;
-        background-color: red;
+        > div{
+            margin: 8px auto;
+            width: 95%;
+        }
     }
+}
+.download{
+    text-align: center;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: wheat;
 }

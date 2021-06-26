@@ -10,7 +10,7 @@ export class Info extends Component {
         <Col xxl={15} xl={19} className="contentContainer">
           <Row>
             <Col xl={18}>
-              <Row>
+              <Row style={{padding:5}}>
                   <InfoTab />
               </Row>
             </Col>

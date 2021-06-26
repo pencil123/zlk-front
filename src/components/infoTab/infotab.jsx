@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Descriptions, Button } from "antd";
+import { Col, Descriptions, Button, Image } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
 import MyBreadcrumb from "../breadcrumb/breadcrumb";
 import "./infotab.less";
@@ -47,6 +47,13 @@ export class infotab extends Component {
               >
                 Download
               </Button>
+            </div>
+            <div className="customer_wechat">
+                <span>所有资源需使用<b>下载码</b>下载；如没有【下载码】，请添加站长微信有偿索取。</span>
+                <Image 
+                src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+              />
+              <div style={{clear:"both"}}></div>
             </div>
           </div>
         </Col>

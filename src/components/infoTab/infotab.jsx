@@ -45,7 +45,7 @@ export class infotab extends Component {
                 icon={<DownloadOutlined />}
                 size="large"
               >
-                Download
+                下载地址
               </Button>
             </div>
             <div className="customer_wechat">

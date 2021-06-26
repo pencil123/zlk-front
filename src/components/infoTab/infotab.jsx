@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Descriptions, Button, Image } from "antd";
+import { Row,Col, Descriptions, Button, Image } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
 import MyBreadcrumb from "../breadcrumb/breadcrumb";
 import "./infotab.less";
@@ -11,13 +11,17 @@ export class infotab extends Component {
         <Col span={24} style={{ margin: "4px 8px" }}>
           <MyBreadcrumb />
         </Col>
-        <Col span={24} className="infotab">
+        <Col span={24}>
+            <Row className="infotab">
+                <Col xxl={8} xl={8}>
           <div className="info_left">
             <img
               src="https://ziliaok.cn/uploads/dockerrongqiyurongqiyun/main.jpg"
               alt="123"
             />
           </div>
+          </Col>
+          <Col xxl={16} xl={16}>
           <div className="info_right">
             <Descriptions
               title="Docker 容器与容器云"
@@ -57,6 +61,8 @@ export class infotab extends Component {
               <div style={{ clear: "both" }}></div>
             </div>
           </div>
+          </Col>
+          </Row>
         </Col>
         <Col span={24} style={{ margin: "4px 8px" }}>
           <div
